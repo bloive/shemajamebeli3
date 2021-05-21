@@ -16,9 +16,7 @@ class UserAdapter (private val items: MutableList<UserModel>, private val ItemLi
     }
 
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
-        holder.itemView.findViewById<TextView>(R.id.name).text = items[position].name
-        holder.itemView.findViewById<TextView>(R.id.surname).text = items[position].surname
-        holder.itemView.findViewById<TextView>(R.id.email).text = items[position].email
+        holder.bind()
     }
 
     override fun getItemCount() = items.size
@@ -32,7 +30,7 @@ class UserAdapter (private val items: MutableList<UserModel>, private val ItemLi
             itemView.findViewById<TextView>(R.id.email).text =  model.email
         }
         override fun onClick ( v: View?) {
-            ItemListener.ItemOnClick(adapterPosition, )
+            ItemListener.ItemOnClick(adapterPosition)
         }
     }
 
