@@ -1,0 +1,12 @@
+com/example/shemajamebeli3/databinding/ActivityMainBinding.java
+ com.example.shemajamebeli3.databinding.ActivityMainBinding
+com/example/shemajamebeli3/databinding/FragmentSecondBinding.java
+ com.example.shemajamebeli3.databinding.FragmentSecondBinding
+com/example/shemajamebeli3/databinding/UserViewBinding.java
+ com.example.shemajamebeli3.databinding.UserViewBinding
+com/example/shemajamebeli3/databinding/ActivityProfileBinding.java
+ com.example.shemajamebeli3.databinding.ActivityProfileBinding
+com/example/shemajamebeli3/databinding/FragmentFirstBinding.java
+ com.example.shemajamebeli3.databinding.FragmentFirstBinding
+com/example/shemajamebeli3/BuildConfig.java
+ com.example.shemajamebeli3.BuildConfig
